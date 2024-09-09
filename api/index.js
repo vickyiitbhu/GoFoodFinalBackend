@@ -1,5 +1,5 @@
 const express = require('express')
-const app = require('../index');
+const app = require('../index')
 const port = 5000
 const mongoDB=require('../db')
 
@@ -21,7 +21,7 @@ app.use(express.json());
 app.use('/api',require("../Routes/CreateUser"));
 app.use('/api',require("../Routes/DisplayData"));
 app.use('/api',require("../Routes/Orderdata"));  
-app.use('/api',require("./Routes/hello"));  
+// app.use('/api',require("./Routes/hello"));  
 // app.listen(port, () => {
 //   console.log(`Example app listening on port ${port}`)
 // })
