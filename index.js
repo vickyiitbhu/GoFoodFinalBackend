@@ -1,5 +1,5 @@
 const express = require('express')
-const app = require('../index');
+const app = express()
 const port = 5000
 const mongoDB=require('../db')
 
